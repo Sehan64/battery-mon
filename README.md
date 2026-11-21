@@ -41,7 +41,7 @@ order:
 1. Abstract socket `com.battmon.battery` - root and shell.
 2. `content://com.battmon.battery/stream` - root and shell; Android denies
    `ACCESS_CONTENT_PROVIDERS_EXTERNALLY` to untrusted app UIDs.
-3. `/sdcard/Android/media/com.battmon/battery.log` - the normal Termux app UID
+3. `/sdcard/Android/media/com.battmon/battery.log` - the normal Terminal app UID
    path, read with `inotify` and a one-second polling fallback.
 
 The companion app has no `INTERNET` permission. The provider is exported
@@ -50,4 +50,4 @@ so treat the relayed data as local and unauthenticated.
 
 ## Tested
 
-Infinix X6873, Android 16 (API 36), arm64, Termux, KernelSU root.
+Infinix X6873, Android 16 (API 36), arm64, any Terminal app, KernelSU root.
