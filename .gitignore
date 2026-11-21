@@ -1,0 +1,15 @@
+# Build outputs
+battery_mon/battery_mon
+battery_mon/code_fetcher
+battery_mon/tools/code_fetcher
+battery_mon/tests/test_parcel
+battery_mon/tests/test_txn_cache
+battery_mon/src/bm_txn_codes.h.tmp
+battery_mon/README.md.bak
+
+# App build outputs and local signing key
+battmon/classes/
+battmon/dexdir/
+battmon/*.apk
+battmon/*.idsig
+battmon/*.keystore
