@@ -50,4 +50,4 @@ so treat the relayed data as local and unauthenticated.
 
 ## Tested
 
-Infinix X6873, Android 16 (API 36), arm64, any Terminal app, KernelSU root.
+Infinix X6873, Android 16 (API 36), arm64, Termux app, KernelSU root, ADB Shell.
